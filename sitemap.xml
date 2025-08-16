@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>https://jozefpodlecki.dev/blog/</loc>
+    </url>
+    <url>
+        <loc>https://jozefpodlecki.dev/blog/posts/</loc>
+    </url>
+    <url>
+        <loc>https://jozefpodlecki.dev/blog/posts/building-retdec-from-source-win11/</loc>
+        <lastmod>2025-08-16</lastmod>
+    </url>
+    <url>
+        <loc>https://jozefpodlecki.dev/blog/posts/page/1/</loc>
+    </url>
+    <url>
+        <loc>https://jozefpodlecki.dev/blog/tags/</loc>
+    </url>
+    <url>
+        <loc>https://jozefpodlecki.dev/blog/tags/detdec/</loc>
+    </url>
+</urlset>
