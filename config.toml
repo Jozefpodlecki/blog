@@ -1,0 +1,29 @@
+title = "jozef-podlecki"
+theme = "apollo"
+taxonomies = [{ name = "tags" }]
+base_url = "https://jozefpodlecki.dev/blog"
+compile_sass = true
+build_search_index = true
+
+[search]
+include_title = true
+include_description = true
+include_path = true
+include_content = true
+index_format = "elasticlunr_json"
+
+[markdown]
+highlight_theme = "kronuz"
+highlight_code = true
+
+[extra]
+toc = true
+theme = "auto"
+socials = [
+  { name = "github", url = "https://github.com/Jozefpodlecki", icon = "github" },
+]
+menu = [
+  { name = "Home", url = "/", weight = 1 },
+  { name = "Posts", url = "/posts", weight = 1 },
+]
+
