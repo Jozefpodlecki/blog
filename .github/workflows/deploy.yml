@@ -21,7 +21,13 @@ jobs:
       with:
           submodules: 'true'
 
-    - name: Build and deploy
-      uses: shalzz/zola-deploy-action@master
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    - uses: taiki-e/install-action@v2
+      with:
+        tool: zola@0.20.0
+
+    - run: |
+        zola build --output-dir ./public
+
+    - uses: actions/upload-pages-artifact@v3
+      with:
+        path: "./public/"
